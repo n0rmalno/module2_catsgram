@@ -6,6 +6,7 @@ import java.time.Instant;
 @Data
 public class Post {
 
+    private Integer id;
     private final String author; // автор
     private final Instant creationDate = Instant.now(); // дата создания
 
